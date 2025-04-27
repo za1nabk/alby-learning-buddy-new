@@ -20,7 +20,7 @@ let finalTranscript = "";
 
 
 
-const apiKey = "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";
+const apiKey = "YOUR-OPENAI-KEY-HERE";
 
 // Setting up speech recognition
 window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -94,7 +94,7 @@ function selectMode(selectedMode) {
 }
 
 
-// --- USER INPUT AND CONVERSATION FLOW ---
+// USER INPUT AND CONVERSATION FLOW 
 
 // Handle what happens when user inputs something
 function handleUserInput(userInput) {
@@ -225,7 +225,6 @@ function tryAgain() {
 }
 
 // reset everything to default for a new topic 
-
 function resetTopic() {
   topicChosen = false;
   modeChosen = false;
